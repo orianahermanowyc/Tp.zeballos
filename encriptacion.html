@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Gestion de calidad de software</title>
+    <link rel="stylesheet" href="encriptacion.css">
+    <script src="encrptacion.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Gestion de calidad</h1>
+
+        <h2>Encriptar</h2>
+        <form id="encriptarForm">
+            <input type="text" id="numeroOriginal" placeholder="Ingrese un entero de cuatro dígitos" maxlength="4">
+            <button type="submit" onclick="encriptarNumero()">Encriptar</button>
+        </form>
+        <p id="resultadoEncriptado"></p>
+
+        <h2>Desencriptar</h2>
+        <form id="desencriptarForm">
+            <input type="text" id="numeroEncriptado" placeholder="Ingrese un entero encriptado de cuatro dígitos">
+            <button type="submit" onclick="hola()">Desencriptar</button>
+        </form>
+        <p id="resultadoDesencriptado"></p>
+    </div>
+
+</body>
+
+</html>
